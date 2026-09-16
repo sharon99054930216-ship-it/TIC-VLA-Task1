@@ -78,5 +78,5 @@ Evaluations feature dual-camera recordings demonstrating egocentric first-person
 
 
 
-\*(Raw MP4 recordings are locally archived in deliverables/videos).\*
+* https://drive.google.com/drive/folders/1_PBFCcNOWxfU_dTAkBNN2vvn7Is9B4dF?usp=drive_link *
 
