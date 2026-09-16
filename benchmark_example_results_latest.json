@@ -1,0 +1,252 @@
+{
+  "timestamp": "latest",
+  "config_file": "/home/3dv_25/lun/TIC-VLA-main/DynaNav/configs/benchmark_example.yaml",
+  "total_episodes": 8,
+  "successful_episodes": 0,
+  "failed_episodes": 8,
+  "success_rate_percent": 0.0,
+  "average_metrics": {
+    "navigation_error_m": 17.539679844516094,
+    "total_collision_rate_percent": 25.0,
+    "human_collision_rate_percent": 25.0,
+    "physical_contact_rate_percent": 0.0,
+    "spl": 0.0,
+    "path_length_m": 0.09274576526714458,
+    "duration_s": 81.25,
+    "duration_frames": 2437.5
+  },
+  "episodes": [
+    {
+      "episode": "episode_hospital_smoke",
+      "scene": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Environments/Hospital/hospital.usd",
+      "start": [
+        -3.0,
+        -1.2,
+        0.01
+      ],
+      "goal": [
+        9.72,
+        2.33,
+        0.01
+      ],
+      "instruction": "Go straight ahead and stop at the front of the vending machine.",
+      "timeout": 70,
+      "robot_type": "nova_carter",
+      "success": false,
+      "duration": 70.0,
+      "duration_frames": 2100,
+      "navigation_error": 13.200884485012894,
+      "success_rate": 0.0,
+      "collision": 1.0,
+      "human_collision": 1.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.0001593071861106876,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_office_smoke",
+      "scene": "/home/3dv_25/lun/TIC-VLA-main/DynaNav/assets/office.usd",
+      "start": [
+        -10.6,
+        -12.1,
+        0.01
+      ],
+      "goal": [
+        -7.68,
+        -25.53,
+        0.01
+      ],
+      "instruction": "Go straight ahead through the hallway behind the black glass doors, then turn left at the end to approach the red emergency exit door.",
+      "timeout": 85,
+      "robot_type": "nova_carter",
+      "success": false,
+      "duration": 85.0,
+      "duration_frames": 2550,
+      "navigation_error": 13.743621875741738,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.00015576181681430361,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_outdoor_smoke",
+      "scene": "/home/3dv_25/lun/TIC-VLA-main/DynaNav/assets/outdoor_small.usd",
+      "start": [
+        -34.05,
+        151.7,
+        6.1
+      ],
+      "goal": [
+        -24.79,
+        165.96,
+        6.0
+      ],
+      "instruction": "Go straight across the street and head toward the wall with the words 'Northside Branch Library.'",
+      "timeout": 100,
+      "robot_type": "nova_carter",
+      "success": false,
+      "duration": 100.0,
+      "duration_frames": 3000,
+      "navigation_error": 16.999864487887137,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.004667628391271615,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_warehouse_smoke",
+      "scene": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+      "start": [
+        -18.98,
+        -14.3,
+        0.01
+      ],
+      "goal": [
+        -2.9,
+        6.54,
+        0.01
+      ],
+      "instruction": "Go straight and stop in front of Aisle 5, where traffic cones and a yellow caution sign block the entrance.",
+      "timeout": 70,
+      "robot_type": "nova_carter",
+      "success": false,
+      "duration": 70.0,
+      "duration_frames": 2100,
+      "navigation_error": 26.32295643272937,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.0005477550368892105,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_hospital_spot",
+      "scene": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Environments/Hospital/hospital.usd",
+      "start": [
+        -3.0,
+        -1.2,
+        0.01
+      ],
+      "goal": [
+        9.72,
+        2.33,
+        0.01
+      ],
+      "instruction": "Go straight ahead and stop at the front of the vending machine.",
+      "timeout": 70,
+      "robot_type": "spot",
+      "success": false,
+      "duration": 70.0,
+      "duration_frames": 2100,
+      "navigation_error": 13.234072694395026,
+      "success_rate": 0.0,
+      "collision": 1.0,
+      "human_collision": 1.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.16299190018766252,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_office_spot",
+      "scene": "/home/3dv_25/lun/TIC-VLA-main/DynaNav/assets/office.usd",
+      "start": [
+        -10.6,
+        -12.1,
+        0.01
+      ],
+      "goal": [
+        -7.68,
+        -25.53,
+        0.01
+      ],
+      "instruction": "Go straight ahead through the hallway behind the black glass doors, then turn left at the end to approach the red emergency exit.",
+      "timeout": 85,
+      "robot_type": "spot",
+      "success": false,
+      "duration": 85.0,
+      "duration_frames": 2550,
+      "navigation_error": 13.706919054387402,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.15910833438399946,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_outdoor_spot",
+      "scene": "/home/3dv_25/lun/TIC-VLA-main/DynaNav/assets/outdoor_small.usd",
+      "start": [
+        -34.05,
+        151.7,
+        6.1
+      ],
+      "goal": [
+        -24.79,
+        165.96,
+        6.0
+      ],
+      "instruction": "Go straight across the street and head toward the wall with the words 'Northside Branch Library.'",
+      "timeout": 100,
+      "robot_type": "spot",
+      "success": false,
+      "duration": 100.0,
+      "duration_frames": 3000,
+      "navigation_error": 16.94742185824992,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.20839990349233037,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    },
+    {
+      "episode": "episode_warehouse_spot",
+      "scene": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.0/Isaac/Environments/Simple_Warehouse/full_warehouse.usd",
+      "start": [
+        -18.98,
+        -14.3,
+        0.01
+      ],
+      "goal": [
+        -2.9,
+        6.54,
+        0.01
+      ],
+      "instruction": "Go straight and stop in front of Aisle 5, where traffic cones and a yellow caution sign block the entrance.",
+      "timeout": 70,
+      "robot_type": "spot",
+      "success": false,
+      "duration": 70.0,
+      "duration_frames": 2100,
+      "navigation_error": 26.161697867725266,
+      "success_rate": 0.0,
+      "collision": 0.0,
+      "human_collision": 0.0,
+      "physical_collision": 0.0,
+      "spl": 0.0,
+      "path_length": 0.20593553164207845,
+      "physical_collision_detected": false,
+      "physical_collision_count": 0
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+============================================================
+BENCHMARK RESULTS SUMMARY
+============================================================
+
+Timestamp: 2026-09-16 00:52:46
+Config File: /home/3dv_25/lun/TIC-VLA-main/DynaNav/configs/benchmark_example.yaml
+
+AGGREGATE METRICS
+------------------------------------------------------------
+Total Episodes: 8
+Successful: 0
+Failed: 8
+Success Rate (SR): 0.0%
+Average Navigation Error (NE): 17.54m
+Total Collision Rate (human OR physical): 25.0%
+Human Collision Rate: 25.0%
+Physical Contact Rate: 0.0%
+Average Success weighted by Path Length: 0.000
+Average Path Length: 0.09m
+Average Simulation Duration: 81.25s (2438 frames)
+
+DETAILED EPISODE RESULTS
+------------------------------------------------------------
+
+episode_hospital_smoke: ✗ FAILED | ⚠ COLLISION  (70.0s, 2100 frames)
+  Scene: hospital.usd
+  Robot: nova_carter
+  Instruction: Go straight ahead and stop at the front of the vending machine.
+  Navigation Error: 13.20m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.00m
+
+episode_office_smoke: ✗ FAILED | ✓ NO COLLISION  (85.0s, 2550 frames)
+  Scene: office.usd
+  Robot: nova_carter
+  Instruction: Go straight ahead through the hallway behind the black glass doors, then turn left at the end to approach the red emergency exit door.
+  Navigation Error: 13.74m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.00m
+
+episode_outdoor_smoke: ✗ FAILED | ✓ NO COLLISION  (100.0s, 3000 frames)
+  Scene: outdoor_small.usd
+  Robot: nova_carter
+  Instruction: Go straight across the street and head toward the wall with the words 'Northside Branch Library.'
+  Navigation Error: 17.00m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.00m
+
+episode_warehouse_smoke: ✗ FAILED | ✓ NO COLLISION  (70.0s, 2100 frames)
+  Scene: full_warehouse.usd
+  Robot: nova_carter
+  Instruction: Go straight and stop in front of Aisle 5, where traffic cones and a yellow caution sign block the entrance.
+  Navigation Error: 26.32m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.00m
+
+episode_hospital_spot: ✗ FAILED | ⚠ COLLISION  (70.0s, 2100 frames)
+  Scene: hospital.usd
+  Robot: spot
+  Instruction: Go straight ahead and stop at the front of the vending machine.
+  Navigation Error: 13.23m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.16m
+
+episode_office_spot: ✗ FAILED | ✓ NO COLLISION  (85.0s, 2550 frames)
+  Scene: office.usd
+  Robot: spot
+  Instruction: Go straight ahead through the hallway behind the black glass doors, then turn left at the end to approach the red emergency exit.
+  Navigation Error: 13.71m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.16m
+
+episode_outdoor_spot: ✗ FAILED | ✓ NO COLLISION  (100.0s, 3000 frames)
+  Scene: outdoor_small.usd
+  Robot: spot
+  Instruction: Go straight across the street and head toward the wall with the words 'Northside Branch Library.'
+  Navigation Error: 16.95m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.21m
+
+episode_warehouse_spot: ✗ FAILED | ✓ NO COLLISION  (70.0s, 2100 frames)
+  Scene: full_warehouse.usd
+  Robot: spot
+  Instruction: Go straight and stop in front of Aisle 5, where traffic cones and a yellow caution sign block the entrance.
+  Navigation Error: 26.16m
+  Success Rate: 0.000
+  Success weighted by Path Length: 0.000
+  Path Length: 0.21m
+
