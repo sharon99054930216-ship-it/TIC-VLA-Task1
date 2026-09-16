@@ -59,6 +59,7 @@ Evaluation executed across 8 episodes covering 4 distinct simulated environments
 
 \## 3. Visual Deliverables
 
-- [Google Drive Video Deliverables]((https://drive.google.com/drive/folders/1_PBFCcNOWxfU_dTAkBNN2vvn7Is9B4dF?usp=drive_link))
+https://drive.google.com/drive/folders/1_PBFCcNOWxfU_dTAkBNN2vvn7Is9B4dF?usp=drive_link
+
 
 
