@@ -40,43 +40,25 @@ Evaluation executed across 8 episodes covering 4 distinct simulated environments
 
 
 
-\### Episode Breakdown
-
-
+### Episode Breakdown
 
 | Robot Platform | Scene | Success Rate | Collision Rate | Path Length | Navigation Error |
-
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Nova Carter** | Hospital (hospital.usd) | 0.0% | 100.0% (Human) | 0.00 m | 13.20 m |
+| **Nova Carter** | Office (office.usd) | 0.0% | 0.0% | 0.00 m | 13.74 m |
+| **Nova Carter** | Outdoor (outdoor_small.usd) | 0.0% | 0.0% | 0.00 m | 17.00 m |
+| **Nova Carter** | Warehouse (full_warehouse.usd) | 0.0% | 0.0% | 0.00 m | 26.32 m |
+| **Spot** | Hospital (hospital.usd) | 0.0% | 100.0% (Human) | 0.16 m | 13.23 m |
+| **Spot** | Office (office.usd) | 0.0% | 0.0% | 0.16 m | 13.71 m |
+| **Spot** | Outdoor (outdoor_small.usd) | 0.0% | 0.0% | 0.21 m | 16.95 m |
+| **Spot** | Warehouse (full_warehouse.usd) | 0.0% | 0.0% | 0.21 m | 26.16 m |
+| **Total / Avg** | **Overall** | **0.0%** | **25.0%** | **0.09 m** | **17.54 m** |
 
-| \*\*Nova Carter\*\* | Hospital (`hospital.usd`) | 0.0% | 100.0% (Human) | 0.00 m | 13.20 m |
-
-| \*\*Nova Carter\*\* | Office (`office.usd`) | 0.0% | 0.0% | 0.00 m | 13.74 m |
-
-| \*\*Nova Carter\*\* | Outdoor (`outdoor\_small.usd`) | 0.0% | 0.0% | 0.00 m | 17.00 m |
-
-| \*\*Nova Carter\*\* | Warehouse (`full\_warehouse.usd`) | 0.0% | 0.0% | 0.00 m | 26.32 m |
-
-| \*\*Spot\*\* | Hospital (`hospital.usd`) | 0.0% | 100.0% (Human) | 0.16 m | 13.23 m |
-
-| \*\*Spot\*\* | Office (`office.usd`) | 0.0% | 0.0% | 0.16 m | 13.71 m |
-
-| \*\*Spot\*\* | Outdoor (`outdoor\_small.usd`) | 0.0% | 0.0% | 0.21 m | 16.95 m |
-
-| \*\*Spot\*\* | Warehouse (`full\_warehouse.usd`) | 0.0% | 0.0% | 0.21 m | 26.16 m |
-
-| \*\*Total / Avg\*\* | \*\*Overall\*\* | \*\*0.0%\*\* | \*\*25.0%\*\* | \*\*0.09 m\*\* | \*\*17.54 m\*\* |
-
-
-
-\---
 
 
 
 \## 3. Visual Deliverables
 
-Evaluations feature dual-camera recordings demonstrating egocentric first-person (RGB View) and third-person camera views.
+- [Google Drive Video Deliverables](https://drive.google.com/drive/folders/1_PBFcCNOWxfU_dTAkBNN2vvn7ls9B4dF?usp=drive_link)
 
-
-
-* https://drive.google.com/drive/folders/1_PBFCcNOWxfU_dTAkBNN2vvn7Is9B4dF?usp=drive_link *
 
